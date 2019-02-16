@@ -58,15 +58,17 @@ crash = L.CircleMarker.extend({
 
 var getAndParseData = function() {
   $.ajax(
-    "https://raw.githubusercontent.com/CPLN692-MUSA611/datasets/master/json/philadelphia-bike-crashes-snippet.json"
-    //"https://jonoyuan.github.io/CPLN692-week4/js/philadelphia-bike-crashes-snippet.json"
+    // "https://raw.githubusercontent.com/CPLN692-MUSA611/datasets/master/json/philadelphia-bike-crashes-snippet.json"
+    "https://jonoyuan.github.io/CPLN692-week4/js/philadelphia-bike-crashes-snippet.json"
   ).done((data) => {
 
     myMarkers = [];
     var popo = [];
     var hour = [];
 
-    let parsed = JSON.parse(data);
+    // let parsed = JSON.parse(data);
+    let parsed = data;
+
     parsed.forEach(pt => {
       let popup = `
         <strong>CRN: ${pt.CRN}</strong><br>
