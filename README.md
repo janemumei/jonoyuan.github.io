@@ -2,4 +2,5 @@
 jonoyuan@upenn.edu
 
 ## Projects  
-[Leaflet map demo](CPLN692-week4/part3-application.html)
+[Leaflet map demo](leaflet-filter/part3-application.html)
+[Plot JSON](plot-json/index.html)
