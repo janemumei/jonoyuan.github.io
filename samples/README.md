@@ -1,5 +1,7 @@
-## Work Samples
-Nashville home prices: [Markdown](nashville.html)  
+## 2018  
 New York bike share: [Markdown](newyork.html), [Slides](newyork.pdf)  
 Philadelphia signal timing: [Slides](walnut34.pdf)  
-Syracuse building code violations (WIP): [Markdown](syracuse.html)
+Nashville home prices: [Markdown](nashville.html)  
+
+## 2019 (wip)  
+Syracuse building code violations: [Markdown](syracuse.html)  
