@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <meta charset="UTF-8">
     <!-- CSS Imports -->
     <link rel="stylesheet" href="css/reset.css" />
     <link rel="stylesheet" href="css/leaflet.css" />
@@ -14,9 +15,9 @@
           <h3>Plot JSON</h3>
           <p class="more-button">more settings</p>
         </div>
-        <p class="message initial">Quickly visualize lat/lng data from a JSON file.</p>
+        <p class="message initial">Quickly visualize points from JSON format.</p>
         <p>
-          <input id="JSON" placeholder="Paste URL here." value="https://raw.githubusercontent.com/CPLN692-MUSA611/datasets/master/json/philadelphia-solar-installations.json">
+          <input id="JSON" placeholder="Paste URL here." value="https://www.pasda.psu.edu/json/SEPTAGISHighspeedStations2012.geojson">
         </p>
       </div>
       <div id="more">
@@ -30,6 +31,7 @@
             <option value="Y">Y</option>
             <option value="LAT">LAT</option>
             <option value="LATITUDE">LATITUDE</option>
+            <option value="LATTITUDE">LATTITUDE</option>
           </select>
           <select class="coord" id="coord-x">
             <option value="" class="auto" disabled selected>Longitude:</option>
