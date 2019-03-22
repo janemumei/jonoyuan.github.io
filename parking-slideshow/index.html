@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title></title>
+  <meta charset="utf-8">
+  <!-- CSS Imports -->
+  <link rel="stylesheet" href="src/reset.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.4.0/leaflet.css" integrity="sha256-YR4HrDE479EpYZgeTkQfgVJq08+277UXxMLbi/YP69o=" crossorigin="anonymous" />
+  <link rel="stylesheet" href="src/style.css" />
+</head>
+<body>
+
+  <div class="sidebar-container">
+    <div class="header">
+      <div class="back hide">&#10005;</div>
+      <div class="title">Slides loading...</div>
+    </div>
+    <div class="content">
+      <div class="loading slide">
+
+      </div>
+    </div>
+    <div class="control-container">
+      <div class="left control hide">&#9666;</div>
+      <div class="fill"></div>
+      <div class="loading start">Slides loading...</div>
+      <div class="fill bar"></div>
+      <div class="right control hide">&#9656;</div>
+    </div>
+  </div>
+  <div class="map-container">
+    <div id="map"></div>
+  </div>
+
+
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.4.0/leaflet.js" integrity="sha256-6BZRSENq3kxI4YYBDqJ23xg0r1GwTHEpvp3okdaIqBw=" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.4/jquery.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
+  <script>
+  var map = L.map('map');
+  const Stamen_TonerLite = L.tileLayer('http://stamen-tiles-{s}.a.ssl.fastly.net/toner-lite/{z}/{x}/{y}.{ext}', {
+    attribution: '<a href="http://stamen.com">Stamen Design</a>, <a href="http://creativecommons.org/licenses/by/3.0">CC BY 3.0</a> &#124; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>',
+    ext: 'png'
+  }).addTo(map);
+  </script>
+  <script src="json/chinatown.json"></script>
+  <script src="json/zoning.json"></script>
+  <script src="json/offstreet.json"></script>
+  <script src="json/recs.json"></script>
+  <script src="src/slides.js"></script>
+  <script src="src/script.js"></script>
+</body>
+</html>
