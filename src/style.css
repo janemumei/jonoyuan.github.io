@@ -150,7 +150,11 @@ body {
 .link:hover {color:white;text-decoration: none;}
 
 .resume {
-  height:1070px;
-  width:825px;
+  height:1067px;
+  width:826px;
   margin:0 auto;
+  position:relative;
+}
+.resume object {
+  width:100%;height:100%;
 }
