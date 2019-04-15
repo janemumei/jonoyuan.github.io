@@ -49,7 +49,7 @@ const items = [{
     "href" : "projects/nashville.html"
   }]
 },  {
-  "title" : "Building Code Violations in Syracuse (WIP)",
+  "title" : "Building Code Violations",
   "text"  : "Machine learning models target high-risk properties at the Department of Code Violations in Syracuse, NY.",
   "image" : "src/syracuse.png",
   "tools" : ["GIS","R","ML"],
@@ -71,7 +71,8 @@ for (let i = 0; i < items.length; i++) {
   let links = "";
   item.links.forEach(function(l) {
     links += `
-      <a href="/${l.href}" class="link">
+      ${ ''/*<a href="/${l.href}" class="link">*/ }
+      <a href="${l.href}" class="link">
         View ${l.name}<br>
         <span style="font-size:0.75rem">(${l.type})</span>
       </a>
@@ -80,7 +81,8 @@ for (let i = 0; i < items.length; i++) {
 
   $('.item-container').append(`
     <style type="text/css">
-      .i${i}::after {background-image:url(/${item.image})}
+      ${ ''/*.i${i}::after {background-image:url(/${item.image})}*/ }
+      .i${i}::after {background-image:url(${item.image})}
     </style>
     <div class="item i${i}">
       <div class="item-left">
@@ -96,7 +98,5 @@ for (let i = 0; i < items.length; i++) {
     </div>
   `)
 }
-
-balanceText($('.item-title'), {watch: true});
 
 });
