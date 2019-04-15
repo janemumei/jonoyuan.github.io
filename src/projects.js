@@ -71,7 +71,7 @@ for (let i = 0; i < items.length; i++) {
   let links = "";
   item.links.forEach(function(l) {
     links += `
-      <a href="/${l.href}" class="link">
+      <a href="/${l.href}" target="_blank" class="link">
       ${ ''/*<a href="${l.href}" class="link">*/ }
         View ${l.name}<br>
         <span style="font-size:0.75rem">(${l.type})</span>
