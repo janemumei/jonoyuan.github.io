@@ -49,7 +49,7 @@ const items = [{
     "href" : "projects/nashville.html"
   }]
 },  {
-  "title" : "Building Code Violations",
+  "title" : "Building Code Violations (WIP)",
   "text"  : "Machine learning models target high-risk properties at the Department of Code Violations in Syracuse, NY.",
   "image" : "src/syracuse.png",
   "tools" : ["GIS","R","ML"],
