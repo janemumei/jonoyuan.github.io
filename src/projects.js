@@ -2,7 +2,7 @@ $(document).ready(function() {
 
 const sections = [{
 
-  "section" : "Government Administration",
+  "section" : "City Government",
 
   "cards"   : [{
     "title" : "The Vision Zero Toolbox",
@@ -147,6 +147,9 @@ for (let i = 0; i < sections.length; i++) {
 if(window.location.hash) {
   let hash = window.location.hash.substr(1);
   $(hash).addClass('highlight');
+  $([document.documentElement, document.body]).animate({
+      scrollTop: $(".highlight").offset().top
+  }, 200);
   $(hash).fadeIn(100).fadeOut(100).fadeIn(100).fadeOut(100).fadeIn(100);
 }
 
