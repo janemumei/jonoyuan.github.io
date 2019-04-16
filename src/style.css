@@ -1,7 +1,49 @@
-html,body {height:100%;}
+@font-face {
+    font-family: 'Helvetica Neue';
+    src: local('Helvetica Neue Bold Italic'), local('HelveticaNeue-BoldItalic'),
+        url('HelveticaNeue-BoldItalic.ttf') format('ttf'),
+        url('HelveticaNeue-BoldItalic.woff2') format('woff2'),
+        url('HelveticaNeue-BoldItalic.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Helvetica Neue';
+    src: local('Helvetica Neue Bold'), local('HelveticaNeue-Bold')
+        url('HelveticaNeue-Bold.ttf') format('ttf'),
+        url('HelveticaNeue-Bold.woff2') format('woff2'),
+        url('HelveticaNeue-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Helvetica Neue';
+    src: local('Helvetica Neue Italic'), local('HelveticaNeue-Italic'),
+        url('HelveticaNeue-Italic.ttf') format('ttf'),
+        url('HelveticaNeue-Italic.woff2') format('woff2'),
+        url('HelveticaNeue-Italic.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Helvetica Neue';
+    src: local('Helvetica 55 Roman'), local('HelveticaNeue-Roman'),
+        url('HelveticaNeue-Roman.ttf') format('ttf'),
+        url('HelveticaNeue-Roman.woff2') format('woff2'),
+        url('HelveticaNeue-Roman.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+
+html,body {height:100%;min-width:300px;}
 
 body {
-  font-family: 'Helvetica Neue','Helvetica','sans serif';
+  font-family: "HelveticaNeue","Helvetica Neue",Helvetica,Arial,sans-serif;
 }
 
 .container {padding: 0 1rem;}
@@ -15,12 +57,6 @@ body {
 
 /* navbar */
 
-.navbar {
-  padding-left: 0; padding-right: 0;
-}
-.navbar-header {
-  width: 290px;
-}
 .navbar-brand {
   font-weight:bold;
   padding: 0.5rem 0;
@@ -40,29 +76,40 @@ body {
 .nav-item.active::after {
   content:"";
   position:absolute;
-  top:1.1rem;
+  top:1.35rem;
   bottom:0;
   right:1rem;
   left:0;
-  background-color: rgba(0,0,0,0.1);
+  background-color: rgba(125,125,125,0.1);
 }
 .nav-item:hover::after {
   content:"";
   position:absolute;
-  top:1.1rem;
+  top:1.35rem;
   bottom:0;
   right:1rem;
   left:0;
-  background-color: rgba(0,0,0,0.1);
+  background-color: rgba(125,125,125,0.1);
 }
-.nav-link {padding:0;margin-top:0.5rem}
-
-.item-container {margin: 0 -0.5rem 2rem;}
-
-
-
+.nav-link {
+  padding:0;margin-top:0.5rem;
+  font-size:1.25rem;
+}
 
 
+
+
+
+.section-title {
+  text-transform:uppercase;
+  font-weight:bold;
+  text-align:left;
+}
+@media (max-width:991px) {
+  .section-title {
+    text-align:right;
+  }
+}
 .item {
   flex-direction:row;
   display:flex;
@@ -76,7 +123,7 @@ body {
   width:47%;
   width:calc(50% - 1rem);
 
-  background-color: rgba(0,0,0,0.05);
+  background-color: rgba(125,125,125,0.05);
 }
 .item::after {
   content:"";
@@ -122,11 +169,6 @@ body {
   flex-direction:column;
   justify-content:flex-end;
 }
-.item-text {
-  font-style:italic;
-  /* font-size: 0.8rem; */
-  line-height: 1.2rem;
-}
 .item-links {
   display:none;
   flex-direction:row;
@@ -152,9 +194,13 @@ body {
 .resume {
   height:1067px;
   width:826px;
-  margin:0 auto;
+  margin:1rem auto;
   position:relative;
 }
 .resume object {
   width:100%;height:100%;
+}
+
+.lh-sm {
+  line-height: 1.2rem;
 }
