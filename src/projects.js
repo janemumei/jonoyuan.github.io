@@ -41,7 +41,11 @@ const sections = [{
     "links" : [{
       "name" : "Slides",
       "type" : "PDF 6.4 MB",
-      "href" : "projects/walnut34.pdf"
+      "href" : "projects/walnut34_slides.pdf"
+    },{
+      "name" : "Report",
+      "type" : "PDF 2.3 MB",
+      "href" : "projects/walnut34_report.pdf"
     }]
   },{
     "title" : "Parking in Chinatown",
@@ -50,8 +54,12 @@ const sections = [{
     "tools" : ["parking","Leaflet"],
     "links" : [{
       "name" : "Slides",
+      "type" : "PDF 790KB",
+      "href" : "projects/chinatown.pdf"
+    },{
+      "name" : "Storymap",
       "type" : "Web 4.1MB",
-      "href" : "chinatown"
+      "href" : "//jonoyuan.github.io/chinatown"
     }]
   }]
 }, {
@@ -64,9 +72,9 @@ const sections = [{
     "image" : "src/newyork.png",
     "tools" : ["GIS","R","stats"],
     "links" : [{
-      "name" : "Slides",
-      "type" : "PDF 4.0 MB",
-      "href" : "projects/newyork.pdf"
+      "name" : "Video",
+      "type" : "Youtube",
+      "href" : "//www.youtube.com/watch?v=UQyTiw3YExM"
     }, {
       "name" : "Report",
       "type" : "Web 6.8 MB",
@@ -90,7 +98,7 @@ for (let i = 0; i < sections.length; i++) {
   let s = sections[i]
 
   $('.item-container').append(`
-    <div class="section s${i} row justify-content-start" style="margin: 1rem -0.5rem 0;">
+    <div class="section s${i} row justify-content-start" style="margin: 2rem -0.5rem 0;">
       <div class="section-title s${i} w-100" style="margin:0 0.5rem;">${s.section}</div>
     </div>
   `)
