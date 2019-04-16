@@ -1,19 +1,5 @@
 $(document).ready(function() {
 
-$('a').on("touchstart", function (e) {
-  'use strict';
-  var link = $(this);
-  if (link.hasClass('hover')) {
-      return true;
-   }
-  else {
-     link.addClass('hover');
-     $('ul > li').not(this).removeClass('hover');
-     e.preventDefault();
-     return false; //extra, and to make sure the function has consistent return points
-    }
-});
-
 const sections = [{
 
   "section" : "Government Administration",
@@ -33,7 +19,7 @@ const sections = [{
       "href" : "projects/visionzero.pdf"
     }]
   }, {
-    "title" : "Building Code Violations (WIP)",
+    "title" : "Building Code Violations (in progress)",
     "text"  : "Machine learning models target high-risk properties at the Department of Code Violations in Syracuse, NY.",
     "image" : "src/syracuse.png",
     "tools" : ["GIS","R","ML"],
@@ -41,6 +27,31 @@ const sections = [{
       "name" : "Report",
       "type" : "Web 1.4 MB",
       "href" : "projects/syracuse.html"
+    }]
+  }]
+}, {
+
+  "section" : "Transportation Planning",
+
+  "cards"   : [{
+    "title" : "Maximizing Vehicle Efficiency",
+    "text"  : "Intersection improvements in Philadephia's University City using four-step modelling and signal timing optimization.",
+    "image" : "src/walnut34.png",
+    "tools" : ["VISSIM","TDM"],
+    "links" : [{
+      "name" : "Slides",
+      "type" : "PDF 6.4 MB",
+      "href" : "projects/walnut34.pdf"
+    }]
+  },{
+    "title" : "Parking in Chinatown",
+    "text"  : "Policy recommendations for parking in Philadelphia Chinatown.",
+    "image" : "src/chinatown.jpg",
+    "tools" : ["parking","Leaflet"],
+    "links" : [{
+      "name" : "Slides",
+      "type" : "Web 4.1MB",
+      "href" : "chinatown"
     }]
   }]
 }, {
@@ -60,16 +71,6 @@ const sections = [{
       "name" : "Report",
       "type" : "Web 6.8 MB",
       "href" : "projects/newyork.html"
-    }]
-  }, {
-    "title" : "Maximizing Vehicle Efficiency",
-    "text"  : "Intersection improvements in Philadephia's University City using four-step modelling and signal timing optimization.",
-    "image" : "src/walnut34.png",
-    "tools" : ["VISSIM","TDM"],
-    "links" : [{
-      "name" : "Slides",
-      "type" : "PDF 6.4 MB",
-      "href" : "projects/walnut34.pdf"
     }]
   }, {
     "title" : "Hedonic Home Price Prediction",
@@ -93,7 +94,6 @@ for (let i = 0; i < sections.length; i++) {
       <div class="section-title s${i} w-100" style="margin:0 0.5rem;">${s.section}</div>
     </div>
   `)
-  console.log(`s${i}`)
 
   let items = s.cards;
 
@@ -132,7 +132,6 @@ for (let i = 0; i < sections.length; i++) {
         </div>
       </div>
     `)
-    console.log(`s${i} i${j}`)
   }
 
 }

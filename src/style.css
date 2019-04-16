@@ -1,9 +1,9 @@
 @font-face {
     font-family: 'Helvetica Neue';
     src: local('Helvetica Neue Bold Italic'), local('HelveticaNeue-BoldItalic'),
-        url('HelveticaNeue-BoldItalic.ttf') format('ttf'),
-        url('HelveticaNeue-BoldItalic.woff2') format('woff2'),
-        url('HelveticaNeue-BoldItalic.woff') format('woff');
+        url('fonts/HelveticaNeue-BoldItalic.ttf') format('ttf'),
+        url('fonts/HelveticaNeue-BoldItalic.woff2') format('woff2'),
+        url('fonts/HelveticaNeue-BoldItalic.woff') format('woff');
     font-weight: bold;
     font-style: italic;
 }
@@ -11,9 +11,9 @@
 @font-face {
     font-family: 'Helvetica Neue';
     src: local('Helvetica Neue Bold'), local('HelveticaNeue-Bold')
-        url('HelveticaNeue-Bold.ttf') format('ttf'),
-        url('HelveticaNeue-Bold.woff2') format('woff2'),
-        url('HelveticaNeue-Bold.woff') format('woff');
+        url('fonts/HelveticaNeue-Bold.ttf') format('ttf'),
+        url('fonts/HelveticaNeue-Bold.woff2') format('woff2'),
+        url('fonts/HelveticaNeue-Bold.woff') format('woff');
     font-weight: bold;
     font-style: normal;
 }
@@ -21,9 +21,9 @@
 @font-face {
     font-family: 'Helvetica Neue';
     src: local('Helvetica Neue Italic'), local('HelveticaNeue-Italic'),
-        url('HelveticaNeue-Italic.ttf') format('ttf'),
-        url('HelveticaNeue-Italic.woff2') format('woff2'),
-        url('HelveticaNeue-Italic.woff') format('woff');
+        url('fonts/HelveticaNeue-Italic.ttf') format('ttf'),
+        url('fonts/HelveticaNeue-Italic.woff2') format('woff2'),
+        url('fonts/HelveticaNeue-Italic.woff') format('woff');
     font-weight: normal;
     font-style: italic;
 }
@@ -31,9 +31,9 @@
 @font-face {
     font-family: 'Helvetica Neue';
     src: local('Helvetica 55 Roman'), local('HelveticaNeue-Roman'),
-        url('HelveticaNeue-Roman.ttf') format('ttf'),
-        url('HelveticaNeue-Roman.woff2') format('woff2'),
-        url('HelveticaNeue-Roman.woff') format('woff');
+        url('fonts/HelveticaNeue-Roman.ttf') format('ttf'),
+        url('fonts/HelveticaNeue-Roman.woff2') format('woff2'),
+        url('fonts/HelveticaNeue-Roman.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 }
@@ -95,7 +95,13 @@ body {
   padding:0;margin-top:0.5rem;
   font-size:1.25rem;
 }
-
+.nav-img {
+  margin-top:-0.25rem;
+  opacity:0.25;
+  background-size:contain;
+  height:2rem;width:2rem;
+}
+.nav-img:hover {opacity:0.5;}
 
 
 
