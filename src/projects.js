@@ -144,8 +144,15 @@ for (let i = 0; i < sections.length; i++) {
 
 }
 
+if(window.location.hash) {
+  let hash = window.location.hash.substr(1);
+  $(hash).addClass('highlight');
+  $(hash).fadeIn(100).fadeOut(100).fadeIn(100).fadeOut(100).fadeIn(100);
+}
 
-
+$(document).click(function(){
+  $('.highlight').removeClass('highlight');
+})
 
 
 
