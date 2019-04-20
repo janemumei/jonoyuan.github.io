@@ -19,14 +19,32 @@ const sections = [{
       "href" : "projects/visionzero.pdf"
     }]
   }, {
+    "title" : "EV Charging in Parking Garages",
+    "text"  : "Suitability analysis to prioritize the installation of EV charging infrastructure in SFMTA garages.",
+    "image" : "src/sanfrancisco.jpg",
+    "tools" : ["policy","parking"],
+    "links" : [{
+      "name" : "Report",
+      "type" : "PDF 880 KB",
+      "href" : "projects/sanfrancisco.pdf"
+    }, {
+      "name" : "Slides",
+      "type" : "PDF 500 KB",
+      "href" : "projects/sanfrancisco_slides.pdf"
+    }]
+  }, {
     "title" : "Building Code Violations (in progress)",
     "text"  : "Machine learning models target high-risk properties at the Department of Code Violations in Syracuse, NY.",
     "image" : "src/syracuse.png",
     "tools" : ["GIS","R","ML"],
     "links" : [{
-      "name" : "Report",
-      "type" : "Web 1.4 MB",
-      "href" : "projects/syracuse.html"
+      "name" : "Web App",
+      "type" : "Web 8.3 MB",
+      "href" : "musacuse-static"
+//     },{
+//       "name" : "Report",
+//       "type" : "Web 1.4 MB",
+//       "href" : "projects/syracuse.html"
     }]
   }]
 }, {
@@ -46,6 +64,16 @@ const sections = [{
       "name" : "Report",
       "type" : "PDF 2.3 MB",
       "href" : "projects/walnut34_report.pdf"
+    }]
+  },{
+    "title" : "Transit Corridor Capacity",
+    "text"  : "Capacity analysis of existing and hypothetical transit corridors in San Francisco, including Muni and BART.",
+    "image" : "src/muni.jpg",
+    "tools" : ["transit","Adobe Creative"],
+    "links" : [{
+      "name" : "Report",
+      "type" : "PDF 8.1 MB",
+      "href" : "projects/muni.pdf"
     }]
   },{
     "title" : "Parking in Chinatown",
