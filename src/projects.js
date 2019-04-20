@@ -36,15 +36,15 @@ const sections = [{
     "title" : "Building Code Violations (in progress)",
     "text"  : "Machine learning models target high-risk properties at the Department of Code Violations in Syracuse, NY.",
     "image" : "src/syracuse.png",
-    "tools" : ["GIS","R","ML"],
+    "tools" : ["GIS","Python","ML"],
     "links" : [{
       "name" : "Web App",
       "type" : "Web 8.3 MB",
       "href" : "musacuse-static"
-//     },{
-//       "name" : "Report",
-//       "type" : "Web 1.4 MB",
-//       "href" : "projects/syracuse.html"
+    },{
+      "name" : "Report (in progress)",
+      "type" : "Web 1.4 MB",
+      "href" : "projects/syracuse.html"
     }]
   }]
 }, {
@@ -69,7 +69,7 @@ const sections = [{
     "title" : "Transit Corridor Capacity",
     "text"  : "Capacity analysis of existing and hypothetical transit corridors in San Francisco, including Muni and BART.",
     "image" : "src/muni.jpg",
-    "tools" : ["transit","Adobe Creative"],
+    "tools" : ["transit","InDesign","Illustrator"],
     "links" : [{
       "name" : "Report",
       "type" : "PDF 8.1 MB",
