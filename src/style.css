@@ -44,7 +44,11 @@ html,body {height:100%;min-width:300px;}
 
 body {
   font-family: "HelveticaNeue","Helvetica Neue",Helvetica,Arial,sans-serif;
-  margin-bottom: 2rem;
+}
+body::after {
+    content:"";
+    height:3rem;
+    display:block;
 }
 
 .container {padding: 0 1rem;}
