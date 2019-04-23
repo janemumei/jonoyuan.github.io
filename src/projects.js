@@ -38,7 +38,7 @@ const sections = [{
     "image" : "src/syracuse.png",
     "tools" : ["GIS","Python","ML"],
     "links" : [{
-      "name" : "Web App",
+      "name" : "App",
       "type" : "Web 8.3 MB",
       "href" : "musacuse-static"
     },{
@@ -110,7 +110,7 @@ const sections = [{
     }]
   }, {
     "title" : "Hedonic Home Price Prediction",
-    "text"  : "Imputation of Nashville home prices based on Zillow sales data.",
+    "text"  : "Imputation of Nashville home prices based on county sales data.",
     "image" : "src/nashville.png",
     "tools" : ["GIS","R","stats"],
     "links" : [{
