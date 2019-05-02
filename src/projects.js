@@ -10,9 +10,9 @@ const sections = [{
     "image" : "src/visionzero.jpg",
     "tools" : ["policy","opendata"],
     "links" : [{
-      "name" : "Excerpt",
-      "type" : "PDF 2.0 MB",
-      "href" : "projects/visionzero_excerpt.pdf"
+      "name" : "Full Report",
+      "type" : "Google Drive 84 pgs",
+      "href" : "https://drive.google.com/file/d/1-1XRjPYyo4Jzn-Htc_egRw9ve9EXg-FE/view"
     }, {
       "name" : "Slides",
       "type" : "Large PDF 24.0 MB",
