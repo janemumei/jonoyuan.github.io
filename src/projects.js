@@ -39,12 +39,12 @@ const sections = [{
     "tools" : ["GIS","Python","ML"],
     "links" : [{
       "name" : "App",
-      "type" : "Web 8.3 MB",
-      "href" : "musacuse-static"
+      "type" : "Web",
+      "href" : "https://musacuse.github.io/app"
     },{
-      "name" : "Report (in&nbsp;progress)",
-      "type" : "Web 1.4 MB",
-      "href" : "projects/syracuse.html"
+      "name" : "Report",
+      "type" : "Web 21.8 MB",
+      "href" : "https://musacuse.github.io"
     }]
   }]
 }, {
