@@ -33,7 +33,7 @@ const sections = [{
       "href" : "projects/sanfrancisco_slides.pdf"
     }]
   }, {
-    "title" : "Building Code Violations (in&nbsp;progress)",
+    "title" : "Building Code Violations",
     "text"  : "Machine learning models target high-risk properties at the Department of Code Violations in Syracuse, NY.",
     "image" : "src/syracuse.png",
     "tools" : ["GIS","Python","ML"],
