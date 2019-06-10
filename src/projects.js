@@ -12,7 +12,7 @@ const sections = [{
     "links" : [{
       "name" : "Full Report",
       "type" : "Google Drive 84 pgs",
-      "href" : "https://drive.google.com/file/d/1-1XRjPYyo4Jzn-Htc_egRw9ve9EXg-FE/view"
+      "href" : "//drive.google.com/file/d/1-1XRjPYyo4Jzn-Htc_egRw9ve9EXg-FE/view"
     }, {
       "name" : "Slides",
       "type" : "Large PDF 24.0 MB",
@@ -40,11 +40,11 @@ const sections = [{
     "links" : [{
       "name" : "App",
       "type" : "Web",
-      "href" : "https://musacuse.github.io/app"
+      "href" : "//musacuse.github.io/app"
     },{
       "name" : "Report",
       "type" : "Web 21.8 MB",
-      "href" : "https://musacuse.github.io"
+      "href" : "//musacuse.github.io"
     }]
   }]
 }, {
