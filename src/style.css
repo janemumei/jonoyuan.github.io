@@ -217,6 +217,10 @@ a.no-anchor:hover {
   color:initial;
 }
 
+tspan {
+  "HelveticaNeue","Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
 .modal-trigger {
   cursor:pointer;
 }
