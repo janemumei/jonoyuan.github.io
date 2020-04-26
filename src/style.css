@@ -217,8 +217,8 @@ a.no-anchor:hover {
   color:initial;
 }
 
-tspan {
-  "HelveticaNeue","Helvetica Neue",Helvetica,Arial,sans-serif;
+svg tspan, svg text {
+  font-family:"HelveticaNeue","Helvetica Neue",Helvetica,Arial,sans-serif;
 }
 
 .modal-trigger {
