@@ -55,9 +55,9 @@ const sections = [{
     "title" : "Wilshire & La Cienega",
     "text"  : "Virtual survey and walk audit for a corridor plan.",
     "image" : "src/wilshire.jpg",
-    "tools" : ["micromobility","Leaflet"],
+    "tools" : ["multimodal","Leaflet"],
     "links" : [{
-      "name" : "Online survey",
+      "name" : "Online Survey",
       "type" : "Web",
       "href" : "https://tooledesign.github.io/G0029_BeverlyHills_Wilshire_La_Cienega/"
     }]
@@ -67,7 +67,7 @@ const sections = [{
     "image" : "src/alameda.png",
     "tools" : ["micromobility","Leaflet"],
     "links" : [{
-      "name" : "Interactive map",
+      "name" : "Interactive Map",
       "type" : "Web",
       "href" : "https://tooledesign.github.io/F0061-Alameda-City-ATP/"
     }]
