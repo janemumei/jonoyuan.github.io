@@ -52,6 +52,26 @@ const sections = [{
   "section" : "Transportation Planning",
 
   "cards"   : [{
+    "title" : "Wilshire & La Cienega",
+    "text"  : "Virtual survey and walk audit for a corridor plan.",
+    "image" : "src/wilshire.jpg",
+    "tools" : ["micromobility","Leaflet"],
+    "links" : [{
+      "name" : "Online survey",
+      "type" : "Web",
+      "href" : "https://tooledesign.github.io/G0029_BeverlyHills_Wilshire_La_Cienega/"
+    }]
+  },{
+    "title" : "City of Alameda Active Transportation Plan",
+    "text"  : "Online engagement that received 2,000+ from City of Alameda stakeholders.",
+    "image" : "src/alameda.png",
+    "tools" : ["micromobility","Leaflet"],
+    "links" : [{
+      "name" : "Interactive map",
+      "type" : "Web",
+      "href" : "https://tooledesign.github.io/F0061-Alameda-City-ATP/"
+    }]
+  },{
     "title" : "Maximizing Vehicle Efficiency",
     "text"  : "Intersection improvements in Philadephia's University City using four-step modelling and signal timing optimization.",
     "image" : "src/walnut34.png",
@@ -74,20 +94,6 @@ const sections = [{
       "name" : "Report",
       "type" : "PDF 8.1 MB",
       "href" : "projects/muni.pdf"
-    }]
-  },{
-    "title" : "Parking in Chinatown",
-    "text"  : "Policy recommendations for parking in Philadelphia Chinatown.",
-    "image" : "src/chinatown.jpg",
-    "tools" : ["parking","Leaflet"],
-    "links" : [{
-      "name" : "Slides",
-      "type" : "PDF 790KB",
-      "href" : "projects/chinatown.pdf"
-    },{
-      "name" : "Storymap",
-      "type" : "Web 4.1MB",
-      "href" : "//jonoyuan.github.io/chinatown"
     }]
   }]
 }, {
