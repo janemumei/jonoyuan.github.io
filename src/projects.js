@@ -59,7 +59,7 @@ const sections = [{
     "links" : [{
       "name" : "Online Survey",
       "type" : "Web",
-      "href" : "https://tooledesign.github.io/G0029_BeverlyHills_Wilshire_La_Cienega/"
+      "href" : "//tooledesign.github.io/G0029_BeverlyHills_Wilshire_La_Cienega/"
     }]
   },{
     "title" : "City of Alameda Active Transportation Plan",
@@ -69,7 +69,7 @@ const sections = [{
     "links" : [{
       "name" : "Interactive Map",
       "type" : "Web",
-      "href" : "https://tooledesign.github.io/F0061-Alameda-City-ATP/"
+      "href" : "//tooledesign.github.io/F0061-Alameda-City-ATP/"
     }]
   },{
     "title" : "Maximizing Vehicle Efficiency",
