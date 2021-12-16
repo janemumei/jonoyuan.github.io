@@ -51,17 +51,19 @@ const sections = [{
 
   "section" : "Transportation Planning",
 
-  "cards"   : [{
-    "title" : "Wilshire & La Cienega",
-    "text"  : "Virtual survey and walk audit for a corridor plan.",
-    "image" : "src/wilshire.jpg",
-    "tools" : ["multimodal","Leaflet"],
-    "links" : [{
-      "name" : "Online Survey",
-      "type" : "Web",
-      "href" : "//tooledesign.github.io/G0029_BeverlyHills_Wilshire_La_Cienega/"
-    }]
-  },{
+  "cards"   : [
+//    {
+//     "title" : "Wilshire & La Cienega",
+//     "text"  : "Virtual survey and walk audit for a corridor plan.",
+//     "image" : "src/wilshire.jpg",
+//     "tools" : ["multimodal","Leaflet"],
+//     "links" : [{
+//       "name" : "Online Survey",
+//       "type" : "Web",
+//       "href" : "//tooledesign.github.io/G0029_BeverlyHills_Wilshire_La_Cienega/"
+//     }]
+//   },
+  {
     "title" : "City of Alameda Active Transportation Plan",
     "text"  : "Online engagement that received 2,000+ from City of Alameda stakeholders.",
     "image" : "src/alameda.png",
